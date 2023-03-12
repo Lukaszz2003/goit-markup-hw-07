@@ -230,27 +230,15 @@ ul {
   margin: 0px auto;
   padding: 0px 15px;
 }
-.page-header {
-  height: 80px;
-  justify-content: space-evenly;
-  border: 1px solid #ececec;
-  background: #ffffff;
-  display: flex;
-  margin: auto;
-  padding: 0px 15px;
-  text-decoration: none;
-}
-.section-one {
+
+.portfolio {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+
   justify-content: space-around;
   gap: 6px;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: auto;
-  list-style-type: none;
 }
 
 .section__button {
@@ -492,16 +480,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.border-two {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  position: relative;
-  width: 370px;
-  height: 404px;
-  overflow: hidden;
-}
-
-.border-two:hover {
+.portfolio__card:hover {
   background: #ffffff;
   border: 1px solid #eeeeee;
   cursor: pointer;
@@ -509,14 +488,14 @@ ul {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.card-item {
+.portfolio__card__item {
   position: relative;
   width: 370px;
   height: 100%;
   z-index: 2;
   overflow: hidden;
 }
-.cos {
+.portfolio__text {
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -547,7 +526,7 @@ ul {
   position: absolute;
 }
 
-.border-two:hover .overlay {
+.portfolio__card:hover .overlay {
   transform: translateY(0);
 }
 .contact__item {
@@ -582,7 +561,7 @@ ul {
   width: 370px;
   height: 70px;
   justify-content: center;
-  top: 1300px;
+  top: 1290px;
   background: rgba(47, 48, 58, 0.8);
   padding: 27px;
 }
@@ -697,46 +676,7 @@ ul {
   margin-left: 40px;
   padding-left: 30px;
 }
-.imie {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
-  letter-spacing: 0.01em;
-  color: #757575;
-  margin-top: 70px;
-  margin-left: 40px;
-}
-
-.tel {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
-  letter-spacing: 0.01em;
-  color: #757575;
-
-  margin-left: 40px;
-}
-
-.poczta {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
-  letter-spacing: 0.01em;
-  color: #757575;
-
-  margin-left: 40px;
-}
-
-.kom {
+.window__name {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -853,6 +793,7 @@ ul {
 
 .name {
   display: inline-block;
+  margin-top: 60px;
 }
 
 .icon-name {
