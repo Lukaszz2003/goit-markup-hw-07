@@ -451,6 +451,7 @@ ul {
   --color3: #2196f3;
   cursor: pointer;
 }
+
 .team__icon:hover {
   --color3: #2196f3;
   cursor: pointer;
@@ -856,6 +857,6 @@ ul {
   border-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.komentarz {
+.comment {
   display: inline-block;
 }

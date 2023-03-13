@@ -1,1 +1,16 @@
 @import "./components/_page-header";
+@import "./components/logo";
+@import "./components/hero";
+@import "./components/button";
+@import "./components/lorem-ipsum";
+@import "./components/work";
+@import "./components/team";
+@import "./components/client";
+@import "./components/footer";
+@import "./components/modal";
+@import "./components/portfolio";
+@import "./utils/vars";
+
+body {
+  max-width: 1200px;
+}
