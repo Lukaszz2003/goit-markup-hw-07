@@ -98,8 +98,8 @@
   --color3: rgba(255, 255, 255, 0.1);
   --color4: #ffffff;
 
-&:hover {
-  --color3: $buttonbackgroundColor
-  cursor: pointer;
-}
+  &:hover {
+    --color3: #2196f3;
+    cursor: pointer;
+  }
 }
